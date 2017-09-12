@@ -1,0 +1,61 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    height: 500px;
+    background-image: url(fundo.jpg);
+    
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 50px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+
+input[type="text"]{
+    width:  70%;
+    height: 35px;
+    
+    
+}
+
+input[type="button"]{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+#confirmar{
+    background: green;
+    color: #fff;
+    box-shadow: 0 5px 0 #006000;
+
+}
+
+#confirmar:hover{
+    background: #006000;
+    color:#fff;
+    box-shadow: 0 5px 0 #003f00;
+    
+}
+
+#confirmar:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}

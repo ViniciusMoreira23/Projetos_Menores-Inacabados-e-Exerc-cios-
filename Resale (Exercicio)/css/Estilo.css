@@ -1,0 +1,534 @@
+html{
+    width: 100%;
+    height: 1800px;
+    
+}
+
+header{
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+header>h1{
+    font-family: monospace;
+    font-size: 40px;
+    color: #07A388;
+    position: relative;
+    bottom: 35%;
+}
+
+header>h1:first-letter{
+    color: #F3C500;
+    
+}
+header h1{
+    float: left;
+}
+
+/*--------------------------fim da logo------------*/
+
+#menu{
+    width: 100%;
+    height: 40px;
+    text-align: right;
+     color: #919BA3;
+    font-family: Arial;
+    font-size: 15px;
+    position: relative;
+    
+    
+}
+
+
+header div nav ul li{
+    display: inline;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    
+}
+
+header div nav ul li:hover{
+    background-color: #01A185;
+    color: white;
+    transition-duration: 0.2s;
+   
+    
+}
+
+header div nav ul li:first-child{
+    margin-right: 5px;
+}
+header div nav ul li:last-child{
+    margin-left: 5px;
+}
+
+/*---------------Fim menu-----------*/
+#banner{
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+    margin-bottom: 200px;
+    
+    
+}
+#txtbanner{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: Arial;
+    position: absolute;
+    top: 190px;
+    
+    color:white;
+}
+
+body div div h1{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body div div h6{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+body div div #btamarelo{
+    text-align: center;
+    
+    font-size: 15px;
+    
+    
+}
+
+#btamarelo{
+    width: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    background: #F3C500;
+    color: white;
+    
+}
+/*----------fim do banner-------------*/
+.container{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+    
+.icones:last-child{
+    margin-bottom: 100px;
+}
+.icones{
+    width: 100%;
+    height: 200px;
+    display: inline-flex;
+    
+
+}
+
+.quadro{
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+    
+    border:1px solid #ECEEF0;
+    background-color: #fff;
+    padding: 2px;
+    
+}
+
+.quadro-conteudo{
+    background-color: beige;
+    width: 144px;
+    height: 174px;
+}
+
+.ico {
+    border-radius: 50%;
+    background-color: #DD0908;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 25px;
+    margin:0 auto;
+    padding: 20% 20%;
+    text-align: center;
+}
+
+.ico span{
+    font-size: 30px;
+    float:left;
+    margin: auto;
+    color: white;
+}
+.quadro-conteudo p{
+    position: relative;
+    bottom: 1px;
+    margin-top: 40px;
+    text-align: center
+
+}
+
+/*-------12 icones----*/
+.fundo-vermelho {
+    background-color: #DD0908;
+}
+
+
+
+.fundo-laranja{
+    
+    background: #FF9E29;    
+}
+
+.fundo-azulClaro{
+  
+    background: #3FB7D2;
+   
+}
+.fundo-verde{
+
+    background: #15C01C;
+    
+}
+.fundo-marrom{
+   
+    background:#7E3B07;
+   
+}
+.fundo-azulEscuro{
+  
+    background:#1963CE ;
+  
+}
+.fundo-rosa{
+  
+    background: #C119CE;
+    
+    
+    
+}
+.fundo-azulMaisClaro{
+   
+    background: #7FBAD8;
+   
+    
+    
+}
+.fundo-verdeAqua{
+  
+    background: #1CA39D;
+    
+    
+    
+}
+.fundo-rosaClaro{
+ 
+    background: #F49ECF;
+    
+    
+    
+}
+.fundo-azulMaisEscuro{
+   
+    
+    background: #070C1F;
+    
+    
+    
+}
+.fundo-dourado{
+   
+    
+    background: #DF8012;
+    
+    
+    
+}
+/*-----------------------slide----------------*/
+.slider-container h1{
+    text-align: center;
+    font-family: Arial;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.slider{
+    width: 1000px;;
+    height: 300px;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.slider .item{
+    width: 100%;
+    height: 300px;
+    
+    text-align: justify;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+.slider img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgray;
+    
+}
+
+.slider p{
+    width: 100%;
+    height: 35px;
+    color: black;
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+}
+.slider span{
+    font-size: 11px;
+    color: gray;
+}
+
+
+.controllers{
+
+    text-align:center;
+
+   
+}
+.controllers span{
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+ 
+.prev{
+    
+    position: absolute;
+    left: 60px;
+    top: 1360px;
+}
+.next{
+    position: absolute;
+    right: 60px;
+    top: 1360px;
+}
+
+
+/*------------------------------------------------*/
+#containerApp{
+	background: #59C2AF;
+	padding-top: 60px;
+	width:100%;
+	display: inline-flex;
+    
+	
+}
+
+
+#app-img{
+    width: 340px;
+	margin-left:100px;
+	float:left;
+}
+#app-text{
+    width: 700px;
+    float:left;
+	margin-left:130px;
+    color:#fff;
+	margin-top:72px;
+	
+}
+#app-text h1{
+	font-size: 1.5em;
+    text-align:left;
+    margin-bottom:22px;
+}
+#app-text p {
+	font-size: 0.9em;
+	letter-spacing: 2px;
+	 margin-bottom:30px;
+	
+	
+}
+.fonte-preta {
+	color:#000;
+}
+.fonte-verde {
+    color: #07A388;
+}
+/*---------FIM FAIXA VERDE---------------------*/
+
+.block{
+	width: 25%;
+	float: left;
+	margin-top: -130;
+	margin-bottom: 30;
+}
+.container .block:first-child{
+    padding-right: 9px;
+    font-size: 0.9em;
+}
+.container .block:nth-child(2){
+    padding-left: 20px;
+}
+.listas p,
+ul.listas li p > a:link{
+	color: #979797;
+}
+.listas p,
+ul.listas li p > a:visited{
+	color: #979797;
+}
+.listas h3,
+ul.listas li p > a:hover{
+	color: #01a185;
+	text-decoration: none;
+}
+
+ul.listas li p > a:active{
+	color: white;
+	background-color: #01a185;
+}
+
+.listas h3,
+ul.listas li h3{
+	color: #01a185;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+ul.listas li {
+	color: #979797;
+	list-style-type:none;
+	font-size: 0.9em;
+}
+
+ul.listas li a{
+	text-decoration: none;
+	color: #979797;
+}
+
+#verdin{
+	color: #7dcfc0;
+}
+
+ul.listas li img{
+	float: left;
+	margin-right: 20px;
+}
+
+.organizar{
+	clear: left;
+}
+
+footer{
+	margin-top: -230px;
+	clear: both;
+	background-color: #3c3d41;
+	text-align: center;
+    padding-bottom: 30px;
+}
+
+#linha1{
+	position: relative;
+	float: left;
+	width: 40%;
+	top: 25px;
+}
+
+#linha2{
+	position: relative;
+	float: right;
+	width: 40%;
+	top: 25px;
+}
+
+footer div > hr{
+	border-color: #545556;
+    
+}
+
+footer div > h1{
+    font-family: monospace;
+    font-size: 40px;
+    color: #07A388;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#logoRodape{
+	font-family: monospace;
+    font-size: 40px;
+	color: #F3C500;
+	text-decoration: none;
+}
+
+.image_off, .home:hover .image_on{
+   display:none;
+}
+
+.image_on, .home:hover .image_off{
+   display:inline;
+}
+
+.container ul li{
+	clear: both;	
+	display: inline;
+	
+}
+
+.container ul{
+	padding: 0;
+}
+
+footer div ul li{
+	margin: 0 10px;
+}
+
+footer div  a{
+	color: #949794;
+}
+
+footer div > a:hover{
+	color: #01a185;
+	text-decoration: none;
+}
+
+footer div > a:active{
+	color: #F3C500;
+}
+
+.yellow{
+	color: #F3C500;
+}

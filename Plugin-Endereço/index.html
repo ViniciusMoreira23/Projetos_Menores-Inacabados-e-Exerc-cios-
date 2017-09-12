@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./css/estilo.css" />
+		<script type="text/javascript" src="./scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="./meu-plugin/endereco.js"></script>
+		<script>
+            $(function(){
+                $("#confirmar").click(function(){
+            var servico = "http://api.postmon.com.br/v1/cep/";
+            var parametro = $("#escrever").val();
+            servico = servico + parametro;
+            var $xhr = $.get(servico);
+                $xhr.done(function(endereco){
+                   caixatxt(endereco);
+                    
+                    
+                    
+                    
+                });
+            
+                 $xhr.fail(function(data){
+                    
+                });
+                 
+                 function caixatxt(dados){
+                    $("#saida").empty();
+                    var html= "<ul><li></li><li></li><li></li><li></li><li></li></ul>"
+                    $("#saida").append(html);
+                    $("#saida ul li:nth-child(1)").text(dados.estado_info.nome);
+                    $("#saida ul li:nth-child(2)").text(dados.cidade);
+                    $("#saida ul li:nth-child(3)").text(dados.bairro);
+                    $("#saida ul li:nth-child(4)").text(dados.cep);
+                    $("#saida ul li:nth-child(5)").text(dados.logradouro);
+                     if(dados.complemento){
+                         $("#saida ul").append("<li></li>"); 
+                         $("#saida ul li:nth-child(6)").text(dados.complemento);
+                     }
+                }
+                
+            });
+            });
+            
+		
+		</script>
+	</head>
+	
+	<body>
+       <h1>Digite o CEP</h1>
+        <input type="text" id="escrever"/>
+        <input type="button" id="confirmar" value="Confirmar"/>
+        <div id="saida"></div>
+       
+	</body>
+	
+</html>	
